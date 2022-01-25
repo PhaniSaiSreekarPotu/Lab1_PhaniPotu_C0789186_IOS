@@ -16,12 +16,46 @@ class ViewController: UIViewController {
     @IBOutlet weak var OScore: UILabel!
     
     @IBOutlet weak var XScore: UILabel!
+    
+    
+    @IBOutlet var Bbutton: [UIButton]!
+    
+    
+    
     var gamearea = [String]()
     var currplayer = ""
     var Xs = 0
     var Os = 0
+    var index = 0;
+    var b = 0
     
     let gamerules = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
+    
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with: UIEvent?){
+        
+        print("Shake")
+        print(b)
+        
+        let btn:UIButton = (view.viewWithTag(b) as? UIButton)!
+        
+        if btn.isKind(of: UIButton.self) == true{
+            let buttontemp = btn as UIButton
+            if buttontemp.titleLabel?.text == "X"{
+                buttontemp.setTitle(nil, for: .normal)
+                currplayer = "X"
+                gamearea[index] = ""
+                
+            }
+            else if buttontemp.titleLabel?.text == "O"{
+                buttontemp.setTitle(nil, for: .normal)
+                currplayer = "O"
+                gamearea[index] = ""
+            }
+            
+        }
+        
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,8 +71,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonAction(_ sender: UIButton) {
-        let index = buttons.index(of: sender)!
+        print(sender)
+        print(sender.tag)
+        b = sender.tag
+        index = buttons.index(of: sender)!
+        print(index)
         if !gamearea[index].isEmpty{
+            print("return")
             return
         }
         if  currplayer == "X"{
@@ -46,7 +85,7 @@ class ViewController: UIViewController {
             currplayer = "O"
             gamearea[index] = "X"
         }else{
-            sender.setTitle("o", for: .normal)
+            sender.setTitle("O", for: .normal)
             currplayer = "X"
             gamearea[index] = "O"
 

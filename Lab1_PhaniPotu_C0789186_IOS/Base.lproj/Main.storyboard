@@ -49,14 +49,14 @@
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BRK-f9-M83"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwl-3u-M5q">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwl-3u-M5q">
                                                 <rect key="frame" x="108.5" y="0.0" width="83" height="90"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lc5-Mq-fPt"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1w-IC-18I">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1w-IC-18I">
                                                 <rect key="frame" x="217.5" y="0.0" width="82.5" height="90"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <connections>
@@ -68,21 +68,21 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="acq-2z-SNA">
                                         <rect key="frame" x="0.0" y="105" width="300" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRH-3L-Zra">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRH-3L-Zra">
                                                 <rect key="frame" x="0.0" y="0.0" width="82.5" height="90"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hYO-Wz-nCa"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZa-sl-cHF">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZa-sl-cHF">
                                                 <rect key="frame" x="108.5" y="0.0" width="83" height="90"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BGG-a2-s4v"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbP-9n-gb6">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbP-9n-gb6">
                                                 <rect key="frame" x="217.5" y="0.0" width="82.5" height="90"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <connections>
@@ -94,21 +94,21 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="JeC-LU-gU3">
                                         <rect key="frame" x="0.0" y="210" width="300" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1g-Vr-9Gy">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1g-Vr-9Gy">
                                                 <rect key="frame" x="0.0" y="0.0" width="82.5" height="90"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hi3-sl-vIK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2v-gu-6Uq">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2v-gu-6Uq">
                                                 <rect key="frame" x="108.5" y="0.0" width="83" height="90"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y2E-DE-ihZ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Aw-MA-b7c">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Aw-MA-b7c">
                                                 <rect key="frame" x="217.5" y="0.0" width="82.5" height="90"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <connections>
@@ -145,6 +145,15 @@
                         <outletCollection property="buttons" destination="o1g-Vr-9Gy" collectionClass="NSMutableArray" id="gpF-SD-dA3"/>
                         <outletCollection property="buttons" destination="n2v-gu-6Uq" collectionClass="NSMutableArray" id="kYG-VP-g40"/>
                         <outletCollection property="buttons" destination="2Aw-MA-b7c" collectionClass="NSMutableArray" id="73p-Az-MZ3"/>
+                        <outletCollection property="Bbutton" destination="4qV-0T-myz" collectionClass="NSMutableArray" id="FlW-B1-NXg"/>
+                        <outletCollection property="Bbutton" destination="kwl-3u-M5q" collectionClass="NSMutableArray" id="cag-kS-Z8I"/>
+                        <outletCollection property="Bbutton" destination="B1w-IC-18I" collectionClass="NSMutableArray" id="fnB-lT-d31"/>
+                        <outletCollection property="Bbutton" destination="uRH-3L-Zra" collectionClass="NSMutableArray" id="Xeb-AX-Djs"/>
+                        <outletCollection property="Bbutton" destination="JZa-sl-cHF" collectionClass="NSMutableArray" id="tGZ-dW-4yL"/>
+                        <outletCollection property="Bbutton" destination="vbP-9n-gb6" collectionClass="NSMutableArray" id="VLw-Rw-qLW"/>
+                        <outletCollection property="Bbutton" destination="o1g-Vr-9Gy" collectionClass="NSMutableArray" id="a7g-AH-Rav"/>
+                        <outletCollection property="Bbutton" destination="n2v-gu-6Uq" collectionClass="NSMutableArray" id="YmV-74-D5k"/>
+                        <outletCollection property="Bbutton" destination="2Aw-MA-b7c" collectionClass="NSMutableArray" id="4yv-0k-Ok8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
